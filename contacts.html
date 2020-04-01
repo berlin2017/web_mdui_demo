@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>通讯录</title>
+		<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
+		<script src="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+		<script type="text/javascript" src="login.js"></script>
+</head>
+<body class="mdui-theme-primary-green mdui-theme-accent-red">
+
+<div class="mdui-container mdui-color-white">
+	<ul class="mdui-list">
+		<li class="mdui-subheader">A</li>
+		<label class="mdui-list-item mdui-ripple">
+			<div class="mdui-checkbox" #if(hidden)hidden>
+				<input type="checkbox"/>
+        		<i class="mdui-checkbox-icon"></i>
+			</div>
+			<div class="mdui-list-item-avatar"><img src="https://www.mdui.org/docs/assets/docs/img/avatar1.jpg"></div>
+			<div class="mdui-list-item-content">
+					<div class="mdui-list-item-title">王凯</div>
+					<div class="mdui-list-item-text mdui-list-item-one-line mdui-text-color-grey"><span class="mdui-text-color-black">简介：</span>就是个大sb</div>
+			</div>
+			<i class="mdui-icon material-icons mdui-list-item-icon">delete</i>
+		</label>	
+		  <li class="mdui-divider-inset mdui-m-y-0"></li>
+
+		<li class="mdui-list-item mdui-ripple">
+		<div class="mdui-list-item-avatar"><img src="https://www.mdui.org/docs/assets/docs/img/avatar2.jpg"/></div>
+			<div class="mdui-list-item-content">刘培培</div>
+			<i class="mdui-icon material-icons mdui-list-item-icon">delete</i>
+		</li>
+		  <li class="mdui-divider-inset mdui-m-y-0"></li>
+
+		<li class="mdui-list-item mdui-ripple">
+			<div class="mdui-list-item-avatar"><img src="https://www.mdui.org/docs/assets/docs/img/avatar3.jpg"/></div>
+			<div class="mdui-list-item-content">因统一</div>
+			<i class="mdui-icon material-icons mdui-list-item-icon">delete</i>
+		</li>
+		<li class="mdui-subheader">B</li>
+		<li class="mdui-list-item mdui-ripple">
+			<div class="mdui-list-item-avatar"><img src="https://www.mdui.org/docs/assets/docs/img/avatar4.jpg"/></div>
+			<div class="mdui-list-item-content">沈伟</div>
+			<i class="mdui-icon material-icons mdui-list-item-icon">delete</i>
+		</li>
+		  <li class="mdui-divider-inset mdui-m-y-0"></li>
+
+		<li class="mdui-list-item mdui-ripple">
+			<div class="mdui-list-item-avatar"><img src="https://www.mdui.org/docs/assets/docs/img/avatar5.jpg"/></div>
+			<div class="mdui-list-item-content">sb</div>
+			<i class="mdui-icon material-icons mdui-list-item-icon">delete</i>
+		</li>
+
+	</ul>
+
+	<div class="mdui-fab-wrapper" id="fab" mdui-fab="{trigger:'hover'}">
+		
+		<button class="mdui-fab mdui-ripple mdui-color-theme-accent">
+			<i class="mdui-icon material-icons">add</i>
+			<i class="mdui-icon mdui-fab-opened material-icons">delete</i>
+		</button>
+
+		<div class="mdui-fab-dial">
+			<button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-pink"><i class="mdui-icon material-icons">delete</i></button>
+			<button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-red"><i class="mdui-icon material-icons">add</i></button>
+			<button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-green"><i class="mdui-icon material-icons">add</i></button>
+			<button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-blue"><i class="mdui-icon material-icons">add</i></button>
+			<button class="mdui-fab mdui-fab-mini mdui-ripple mdui-color-yellow"><i class="mdui-icon material-icons">add</i></button>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>

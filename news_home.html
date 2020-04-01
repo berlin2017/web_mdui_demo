@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>news</title>
+		<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
+		<script src="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+		<script type="text/javascript" src="news_home.js" defer="true"></script>
+</head>
+<body class="mdui-theme-primary-green mdui-theme-accent-red">
+
+	<div class="mdui-toolbar mdui-color-theme">
+		<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">arrow_back</i></a>
+		<span class="mdui-typo-title">新闻列表</span>
+		<div class="mdui-toolbar-spacer"></div>
+		<div class="mdui-textfield mdui-textfield-expandable">
+    		<button class="mdui-textfield-icon mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></button>
+    		<input class="mdui-textfield-input" type="text" placeholder="Search"/>
+    		<button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
+  		</div>
+    	<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">refresh</i></a>
+    	<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
+	</div>
+
+<div class="mdui-container mdui-color-white">
+
+	<div class= "mdui-tab mdui-tab-full-width mdui-color-theme" mdui-tab="{trigger:'hover'}" id='tab'>
+		
+		<a href="#example1-tab1" class="mdui-ripple" id= "tab1"> 
+			<i class="mdui-icon material-icons">phone</i>
+			<label>合肥</label>
+		</a>
+    	<a href="#example1-tab2" class="mdui-ripple" id= "tab2">
+    		<i class="mdui-icon material-icons">favorite</i>
+			<label>淮北</label>
+		</a>
+    	<a href="#example1-tab3" class="mdui-ripple" id= "tab3">
+    		<i class="mdui-icon material-icons">perm_contact_calendar</i>
+			<label>亳州</label>
+    	</a>
+	</div>
+
+	<div id="example1-tab1">aa</div>
+	<div id="example1-tab2">bb</div>
+	<div id="example1-tab3">cc</div>
+
+</div>
+
+</body>
+</html>

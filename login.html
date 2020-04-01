@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>注册</title>
+		<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
+		<script src="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+		<script type="text/javascript" src="login.js"></script>
+</head>
+<body class="mdui-theme-primary-green mdui-theme-accent-pink">
+
+<div class="mdui-container">
+	<form>
+	<div class="mdui-card mdui-p-a-5 mdui-m-t-5">
+  <div class="mdui-textfield mdui-textfield-floating-label">
+    <label class="mdui-textfield-label">用户名</label>
+    <input class="mdui-textfield-input" type="text" required/>
+    <div class="mdui-textfield-error">用户名不能为空</div>
+  </div>
+
+  <div class="mdui-textfield mdui-textfield-floating-label">
+    <label class="mdui-textfield-label">邮箱</label>
+    <input class="mdui-textfield-input" type="email" required/>
+    <div class="mdui-textfield-error">邮箱格式错误</div>
+  </div>
+
+  <div class="mdui-textfield mdui-textfield-floating-label">
+    <label class="mdui-textfield-label">密码</label>
+    <input class="mdui-textfield-input" type="password" pattern="^.*(?=.{6,})(?=.*[a-z])(?=.*[A-Z]).*$" required/>
+    <div class="mdui-textfield-error">密码至少 6 位，且包含大小写字母</div>
+    <div class="mdui-textfield-helper">请输入至少 6 位，且包含大小写字母的密码</div>
+  </div>
+
+  <button class="mdui-btn mdui-btn-block mdui-color-theme mdui-ripple mdui-m-t-5" >注册</button>
+</div>
+
+</form>
+</div>
+
+</body>
+</html>
